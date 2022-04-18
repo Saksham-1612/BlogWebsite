@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.container {
+    position: relative;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 100vh;
+    overflow-y: auto;
+    z-index: 1;
+    font-family: 'Quicksand', sans-serif;
+    background: black;
+}
+
+.overtext {
+    color: white;
+    padding: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.blog {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem;
+    margin-top: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: #fff;
+    border-radius: 2rem;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 2px solid white;
+    font-size: large;
+    line-height: 2rem;
+    z-index: 1;
+    height: max-content;
+}
+
+.blog:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    transition: all 900ms ease;
+
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+}
+
+.bg-video {
+
+    height: 100%;
+    width: 177.77777778vh;
+    /* 100 * 16 / 9 */
+    min-width: 100%;
+    min-height: 56.25vw;
+    /* 100 * 9 / 16 */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -11;
+}
+
+.music {
+    padding: 2rem;
+    margin-top: 2rem;
+    color: white;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+audio {
+    height: 2rem;
+}
+
+.audio {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+.text-gradient {
+    background: linear-gradient(to right, #30CFD0, #c43ad6);
+    -webkit-background-clip: text;
+    /* -webkit-animation: hue 10s infinite linear; */
+    -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 600px) {
+    .text {
+        font-size: 4rem;
+        margin-left: .25rem;
+        margin-right: .25rem;
+    }
+
+}
