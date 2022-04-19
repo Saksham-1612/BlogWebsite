@@ -93,7 +93,6 @@ audio {
 .text-gradient {
     background: linear-gradient(to right, #30CFD0, #c43ad6);
     -webkit-background-clip: text;
-    /* -webkit-animation: hue 10s infinite linear; */
     -webkit-text-fill-color: transparent;
 }
 
@@ -104,4 +103,14 @@ audio {
         margin-right: .25rem;
     }
 
+}
+
+.content {
+    margin: 2rem;
+    color: white;
+    line-height: 2rem;
+}
+
+.list {
+    margin: 1rem;
 }
